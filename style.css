@@ -124,11 +124,9 @@ a:hover, a:focus { color: var(--link-hover); }
 .portrait img {
   display: block;
   width: 150px;
-  height: 188px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 4px;
-  background: var(--accent-bg);
-  border: 1px solid var(--rule);
+  border-radius: 50%;      /* the source image is already a circular crop */
   font-size: 0.75rem;      /* styles the alt text if the file is absent */
   color: var(--muted);
 }
