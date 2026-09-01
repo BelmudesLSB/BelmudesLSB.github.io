@@ -101,6 +101,13 @@ a:hover, a:focus { text-decoration: underline; }
 
 .items a { font-weight: 700; }
 
+/* GitHub mark: sized to the text and inheriting its colour, so it reads
+   as part of the sentence rather than as a badge */
+.gh-mark {
+  vertical-align: -0.14em;
+  margin-right: 0.28em;
+}
+
 .page-title {
   margin: 2.5rem 0 0.5rem;
   font-size: 1.75rem;
