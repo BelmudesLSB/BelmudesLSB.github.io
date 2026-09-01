@@ -175,7 +175,7 @@ section {
 .items > li { margin-bottom: 2.4rem; }
 .items > li:last-child { margin-bottom: 0; }
 
-.items.tight > li { margin-bottom: 0.55rem; }
+.items.tight > li { margin-bottom: 0.7rem; }
 
 .byline { margin: 0.6rem 0 0; }
 
@@ -190,6 +190,12 @@ section {
 .pending {
   margin: 0.6rem 0 0;
   color: var(--muted);
+}
+
+.pages {
+  color: var(--muted);
+  font-size: 0.875rem;
+  white-space: nowrap;
 }
 
 /* ---------- seasons banner ---------- */
