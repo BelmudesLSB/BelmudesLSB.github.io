@@ -34,7 +34,10 @@ body {
 
 /* ---------- header ---------- */
 
-.site-header { border-bottom: 1px solid var(--rule); }
+/* The page is bookended in maroon: the rule under the header and the one
+   closing the page. Grey stays for the section dividers between them, so
+   colour marks the page boundary and grey marks internal structure. */
+.site-header { border-bottom: 1px solid var(--link); }
 
 .site-header .wrap {
   display: flex;
@@ -204,7 +207,7 @@ section {
   margin: 0;
   padding: 2.5rem 0;
   border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--link);
 }
 
 .seasons img {
