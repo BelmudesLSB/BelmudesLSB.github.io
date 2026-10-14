@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /drafts/
+Disallow: /papers/
 
 Sitemap: https://www.lucasbelmudes.com/sitemap.xml
