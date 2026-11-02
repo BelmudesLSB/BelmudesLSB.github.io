@@ -201,6 +201,8 @@ section {
   color: var(--muted);
 }
 
+.links { margin: 0.6rem 0 0; }
+
 .pages {
   color: var(--muted);
   font-size: 0.875rem;
