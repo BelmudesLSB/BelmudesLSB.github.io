@@ -112,6 +112,14 @@ a:hover, a:focus { text-decoration: underline; }
 
 .items a { font-weight: 700; }
 
+/* Coauthor names sit inside a sentence, so they take the prose treatment
+   rather than competing with the paper title above them. */
+.byline a {
+  font-weight: 400;
+  color: var(--text);
+  text-decoration: underline;
+}
+
 /* GitHub mark: sized to the text and inheriting its colour, so it reads
    as part of the sentence rather than as a badge */
 .gh-mark {
